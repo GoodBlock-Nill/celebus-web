@@ -1,0 +1,94 @@
+.screen7Container {
+  background-color: #fafafa;
+  padding: 2rem 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+.leftGroup {
+  position: relative;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.iphoneImage {
+  max-width: 100%;
+  height: auto;
+}
+
+.buyBadge {
+  position: absolute;
+  bottom: 10%;
+  left: 20%;
+  transform: translateX(-50%);
+  background-color: #B7E703;
+  border-radius: 10px;
+  width: 245px;
+  height: 48px;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+.rightGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.collectBadge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 40px;
+  background-color: #B7E703;
+  border-radius: 50px;
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+}
+
+.collectText {
+  font-weight: bold;
+}
+
+.newClipsText {
+  font-weight: bold;
+}
+
+.onMarketText {
+  color: rgba(0, 0, 0, 0.48);
+}
+
+@media (max-width: 1022px) {
+  .screen7Container {
+    padding: 1.25rem 0;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .rightGroup,
+  .leftGroup {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .screen7Contents {
+    flex-direction: column-reverse !important;
+  }
+  .collectText,
+  .newClipsText,
+  .onMarketText {
+    font-size: 2.5rem !important;
+  }
+}

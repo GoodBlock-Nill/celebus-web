@@ -1,0 +1,93 @@
+.screen3Container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FAFAFA;
+}
+
+.screen3Content {
+  /* width: 100%; */
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  flex-direction: row;
+}
+
+.screen3Image {
+  text-align: left;
+}
+
+.screen3Image img {
+  width: 100%;
+  max-width: 360px;
+  transition: all 5s ease-in-out;
+}
+
+.screen3Text {
+  text-align: right;
+}
+
+.s3Text1, .s3Text2, .s3Text3 {
+  font-size: 3.25rem;
+  font-weight: bold !important;
+  line-height: 1;
+}
+
+.s3Text1 {
+  color: rgba(0, 0, 0, 0.48);
+}
+
+.s3Text2 {
+  color: #B7E703;
+}
+
+.s3Text3 {
+  padding-top: 1.5rem;
+  color: rgba(0, 0, 0, 0.48);
+}
+
+.playBtn {
+  width: 208px;
+  vertical-align: middle;
+}
+
+
+@keyframes flutter {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.playBtnWrapper {
+  display: inline-flex;
+  animation: flutter 2.5s linear infinite;
+}
+
+
+@media (max-width: 1022px) {
+  .screen3Content {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column-reverse;
+
+  }
+  .screen3Image {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .screen3Text {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .s3Text1,
+  .s3Text2,
+  .s3Text3 {
+    font-size: 2.5rem !important;
+  }
+}

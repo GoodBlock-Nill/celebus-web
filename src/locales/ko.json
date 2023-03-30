@@ -1,0 +1,26 @@
+{
+  "header.english": "English",
+  "header.korean": "한국어",
+  "header.japanese": "日本語",
+  "header.chinese": "中文(简体)",
+
+  "screen2.scanYour": "CLIP",
+  "screen2.qr": "등록하고",
+  "screen2.getYour": "영상 굿즈",
+  "screen2.digitalGoods": "챙기자!",
+  
+  "screen3.checkout": "내가 가진",
+  "screen3.digitalgoods": "영상 굿즈를",
+  "screen3.on": "지금 바로 ",
+
+  "screen4.is_there_anything_else": "굿즈 말고 더 없을까?",
+  "screen4.yes": "CELEBUS는 고민합니다...",
+
+  "screen5.mission":"Mission",
+  "screen5.earn":"미션",
+  "screen5.badges":"참여하고!",
+  "screen5.byCompleting":"뱃지",
+  "screen5.missions":"획득하고!",
+  "screen5.plus":"추가",
+  "screen5.coolEvents":"특전 이벤트까지!"
+}

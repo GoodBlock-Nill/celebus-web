@@ -1,0 +1,26 @@
+{
+  "header.english": "English",
+  "header.korean": "한국어",
+  "header.japanese": "日本語",
+  "header.chinese": "中文(简体)",
+
+  "screen2.scanYour": "CLIP",
+  "screen2.qr": "登録して",
+  "screen2.getYour": "映像グッズ",
+  "screen2.digitalGoods": "を持って行こう！",
+
+  "screen3.checkout": "デジタルグッズを確認する",
+  "screen3.digitalgoods": "デジタルグッズ",
+  "screen3.on": "再生する ",
+
+  "screen4.is_there_anything_else": "何か他に必要なものはありますか？",
+  "screen4.yes": "はい",
+
+  "screen5.mission":"Mission",
+  "screen5.earn":"ミッションに",
+  "screen5.badges":"参加して！",
+  "screen5.byCompleting":"バッジを",
+  "screen5.missions":"獲得して！",
+  "screen5.plus":"追加",
+  "screen5.coolEvents":"特典イベントまで！"
+}

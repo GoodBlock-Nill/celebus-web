@@ -1,0 +1,47 @@
+.screen2Container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #14054E;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.screen2Text {
+  text-align: left;
+}
+
+.text1 {
+  font-size: 2rem !important;
+  font-weight:700 !important; 
+  color: rgba(255, 255, 255, 0.48);
+}
+
+
+.text2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-left: 10px;
+  color: #ffffff;
+}
+
+.screen2Image {
+  text-align: right;
+}
+
+@media (max-width: 1022px) {
+  .screen2Content {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column-reverse;
+  }
+  .screen2Text {
+    margin-bottom: 32px;
+    text-align: center;
+  }
+  .screen2Image {
+    text-align: center;
+  }
+}

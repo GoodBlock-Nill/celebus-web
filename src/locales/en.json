@@ -1,0 +1,27 @@
+{
+  "header.english": "English",
+  "header.korean": "한국어",
+  "header.japanese": "日本語",
+  "header.chinese": "中文(简体)",
+
+  "screen2.scanYour": "Scan your",
+  "screen2.qr": "QR",
+  "screen2.getYour": "Get your",
+  "screen2.digitalGoods": "Digital goods",
+
+  "screen3.checkout": "Check out Your",
+  "screen3.digitalgoods": "Digital goods",
+  "screen3.on": "On ",
+
+  "screen4.is_there_anything_else": "Is there anything else?",
+  "screen4.yes": "YES",
+
+  "screen5.mission":"Mission",
+  "screen5.earn":"Earn",
+  "screen5.badges":"Badges",
+  "screen5.byCompleting":"by completing",
+  "screen5.missions":"Missions!",
+  "screen5.plus":"Plus",
+  "screen5.coolEvents":"cool events"
+}
+

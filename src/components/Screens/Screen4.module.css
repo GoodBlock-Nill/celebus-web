@@ -1,0 +1,61 @@
+/* Screen4.module.css */
+
+.screen4Container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.typeText1 {
+  font-size: 3rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.typeText2 {
+  font-size: 6rem;
+  color: #B7E703;
+  display: flex;
+  font-weight: 700;
+  justify-content: center;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 600px) {
+  .typeText1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .typeText2 {
+    font-size: 5rem;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 960px) {
+  .typeText1 {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .typeText2 {
+    font-size: 6rem;
+  }
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1280px) {
+  .typeText1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .typeText2 {
+    font-size: 7.5rem;
+  }
+}

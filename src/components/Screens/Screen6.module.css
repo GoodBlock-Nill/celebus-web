@@ -1,0 +1,91 @@
+.screen6Container {
+  background-color: #fff;
+  padding: 2rem 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  overflow: auto;
+}
+
+.leftGroup{
+  align-items: flex-start;
+  display: flex;
+  font-weight: 700;
+  font-size: 3.25rem;
+  flex-direction: column;
+}
+.rightGroup {
+  align-items: flex-end;
+  display: flex;
+  font-size: 2.6rem;
+  font-weight: 700;
+  flex-direction: column;
+}
+
+.marketBadge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 40px;
+  background-color: #B7E703;
+  border-radius: 50px;
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+}
+
+.text1 {
+  margin-bottom: 10px;
+  color: rgba(0, 0, 0, 0.48);
+}
+.text2 {
+  margin-bottom: 10px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.iphoneImage {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sliderContainer {
+  position: absolute;
+  top: 20%; /* Adjust the position of the slider inside the iPhone image */
+  left: 15%; /* Adjust the position of the slider inside the iPhone image */
+  width: 70%; /* Adjust the width of the slider inside the iPhone image */
+  height: 60%; /* Adjust the height of the slider inside the iPhone image */
+  overflow: hidden;
+}
+
+.clipImage {
+  margin-top: 10%;
+  max-width: 85%;
+  height: auto;
+}
+
+@media (max-width: 1022px) {
+  .screen6Container {
+    padding: 1.25rem 0;
+    height: auto;
+  }
+  .leftGroup,
+  .rightGroup {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .rightGroup {
+    flex-direction: column-reverse;
+  }
+  .text1,
+  .text2 {
+    font-size: 2.5rem !important;
+  }
+}

@@ -1,0 +1,148 @@
+.screen5Container {
+  background-color: #fafafa;
+  padding: 2rem 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+.leftGroup {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: left;
+}
+
+.missionBadge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 43px;
+  background-color: #B7E703;
+  border-radius: 95px;
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+}
+
+.plainText {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+}
+.textGroup {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content:flex-start;
+  
+}
+
+.text1 {
+  color: rgba(0, 0, 0, 0.48);
+  font-size: 3.25rem !important;
+  font-weight: bold;
+  margin-right: 10px !important;
+}
+
+.text2 {
+  color: #000;
+  font-size: 3.25rem !important;
+  font-weight: bold;
+}
+
+.eventsImage {
+  width: 48px;
+  height: auto;
+}
+
+.rightGroup {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.rightBadge {
+  animation: pulse 1s infinite;
+}
+.rotateRightBadge {
+  animation: rotate 2s forwards;
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.imageFloating {
+  animation: floating 2s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(720deg);
+  }
+}
+
+@keyframes floating {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@media (max-width: 1022px) {
+  .screen5Container {
+    padding: 1.25rem 0;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .rightGroup,
+  .leftGroup {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .eventsImage {
+    height: auto;
+  }
+  .text1,
+  .text2 {
+    font-size: 2.5rem !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .missionBadge {
+    margin-bottom: 20px;
+  }
+  .textGroup {
+    flex-direction: column;
+  }
+}
+
