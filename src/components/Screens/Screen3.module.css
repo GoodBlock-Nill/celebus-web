@@ -28,7 +28,7 @@
 }
 
 .s3Text1, .s3Text2, .s3Text3 {
-  font-size: 3.25rem;
+  font-size: 3.25rem !important;
   font-weight: bold !important;
   line-height: 1;
 }

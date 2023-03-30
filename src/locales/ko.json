@@ -18,9 +18,24 @@
 
   "screen5.mission":"Mission",
   "screen5.earn":"미션",
-  "screen5.badges":"참여하고!",
+  "screen5.badges":"참여해서",
   "screen5.byCompleting":"뱃지",
   "screen5.missions":"획득하고!",
   "screen5.plus":"추가",
-  "screen5.coolEvents":"특전 이벤트까지!"
+  "screen5.coolEvents":"특전 이벤트까지!",
+
+  "screen6.ticketText":"공연티켓을 등록하면",
+  "screen6.awesomeText":"최애의",
+  "screen6.digitalContentsText":"특별한 굿즈가 나에게!",
+  "screen6.tradeText":"원하는 CLIP을",
+  "screen6.withText":"마켓에서 사고 팔고!",
+
+  "screen7.buyBadge": "구매",
+  "screen7.collectText": "마켓에서 ",
+  "screen7.newClipsText": "새로운 CLIP을",
+  "screen7.onMarketText": "모아보세요!",
+  
+  "screen8.howAbout": "이런 ",
+  "screen8.giftIdea": "선물",
+  "screen8.idea": "은 어때요?"
 }

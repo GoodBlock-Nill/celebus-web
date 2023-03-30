@@ -22,5 +22,20 @@
   "screen5.byCompleting":"バッジを",
   "screen5.missions":"獲得して！",
   "screen5.plus":"追加",
-  "screen5.coolEvents":"特典イベントまで！"
+  "screen5.coolEvents":"特典イベントまで！",
+
+  "screen6.ticketText":"Ticket turned into",
+  "screen6.awesomeText":"awesome",
+  "screen6.digitalContentsText":"Digital contents!",
+  "screen6.tradeText":"Trade your CLIP",
+  "screen6.withText":"with others",
+
+  "screen7.buyBadge": "買う",
+  "screen7.collectText": "マーケットで",
+  "screen7.newClipsText": "新しいCLIPSを",
+  "screen7.onMarketText": "集めましょう!",
+
+  "screen8.howAbout": "こんな",
+  "screen8.giftIdea": "プレゼント",
+  "screen8.idea": "はどうですか？"
 }

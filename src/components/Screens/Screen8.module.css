@@ -33,6 +33,7 @@
 .text {
   margin-bottom: 1rem;
   color: rgba(0, 0, 0, 0.48);
+  white-space: pre-wrap;
 }
 .text span {
   color: #000;

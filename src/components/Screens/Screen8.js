@@ -5,7 +5,7 @@ import iPhoneImage2 from '../../assets/image/screen8-2.png';
 import MessageCard from '../../assets/image/screen8Card.png';
 import styles from './Screen8.module.css';
 import { Fade } from 'react-awesome-reveal';
-
+import { FormattedMessage } from 'react-intl';
 
 const Screen8 = () => {
   return (
@@ -18,7 +18,11 @@ const Screen8 = () => {
                 Gift
               </Box>
               <Typography variant="h2" fontWeight="700" className={styles.text}>
-                How about this <span>Gift</span> idea?
+                <FormattedMessage id="screen8.howAbout" defaultMessage="How about this" />
+                <span>
+                  <FormattedMessage id="screen8.giftIdea" defaultMessage="Gift" />
+                </span>
+                <FormattedMessage id="screen8.idea" defaultMessage="idea?" />
               </Typography>
               <Fade direction="right">
                 <Box className={styles.imageGroup}>

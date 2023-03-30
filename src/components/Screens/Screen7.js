@@ -6,7 +6,7 @@ import { Container } from '@mui/system';
 import styled, { keyframes } from 'styled-components';
 import { pulse } from 'react-animations';
 import { Fade } from 'react-awesome-reveal';
-
+import { FormattedMessage } from 'react-intl';
 
 const Screen7 = () => {
   const PulseAnimation = keyframes`${pulse}`;
@@ -23,7 +23,7 @@ const Screen7 = () => {
               <Box className={styles.leftGroup}>
                   <img src={iPhoneImage} alt="iPhone" className={styles.iphoneImage} />
                   <ShinyBuyBadge className={styles.buyBadge}>
-                    Buy
+                    <FormattedMessage id="screen7.buyBadge" defaultMessage="Buy" />
                   </ShinyBuyBadge>
                 </Box>
             </Fade>
@@ -34,13 +34,13 @@ const Screen7 = () => {
                 Collect
               </Box>
               <Typography variant="h2" fontWeight={700} className={styles.collectText}>
-                Collect
+                <FormattedMessage id="screen7.collectText" defaultMessage="Collect" />
               </Typography>
               <Typography variant="h2" fontWeight={700} className={styles.newClipsText}>
-                new CLIPS
+                <FormattedMessage id="screen7.newClipsText" defaultMessage="new CLIPS" />
               </Typography>
               <Typography variant="h2" fontWeight={700} className={styles.onMarketText}>
-                on the market!
+                <FormattedMessage id="screen7.onMarketText" defaultMessage="on the market!" />
               </Typography>
             </Box>
           </Grid>

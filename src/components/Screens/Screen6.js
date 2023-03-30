@@ -10,6 +10,8 @@ import iPhoneImage2 from '../../assets/image/screen6-2.png';
 import Clip1 from '../../assets/image/clip1.png';
 import Clip2 from '../../assets/image/clip2.png';
 import Clip3 from '../../assets/image/clip3.png';
+import { FormattedMessage } from 'react-intl';
+
 
 
 const Screen6 = () => {
@@ -38,10 +40,10 @@ const Screen6 = () => {
                   </Box>
                 </Fade>
                 <Fade direction="left" delay={200}>
-                  <span className={styles.text1}>Ticket turned into</span>
+                <span className={styles.text1}><FormattedMessage id="screen6.ticketText" defaultMessage="Ticket turned into" /></span>
                   <span className={styles.text1}>
-                    awesome {''}
-                    <span className={styles.text2}>Digital contents!</span>
+                    <FormattedMessage id="screen6.awesomeText" defaultMessage="awesome" /> {''}
+                    <span className={styles.text2}><FormattedMessage id="screen6.digitalContentsText" defaultMessage="Digital contents!" /></span>
                   </span>
                 </Fade>
                 <Fade direction="left" delay={400}>
@@ -70,8 +72,8 @@ const Screen6 = () => {
                 <img src={iPhoneImage2} alt="trading clip" className={styles.iphoneImage} />
               </Fade>
               <Fade direction="right" delay={800}>
-                <span className={styles.text2}>Trade your CLIP</span>
-                <span className={styles.text1}>with others</span>
+                <span className={styles.text2}><FormattedMessage id="screen6.tradeText" defaultMessage="Trade your CLIP" /></span>
+                <span className={styles.text1}><FormattedMessage id="screen6.withText" defaultMessage="with others" /></span>
               </Fade>
             </Box>
           </Grid>

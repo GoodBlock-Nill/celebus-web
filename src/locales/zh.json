@@ -4,17 +4,17 @@
   "header.japanese": "日本語",
   "header.chinese": "中文(简体)",
 
-  "screen2.scanYour": "CLIP",
-  "screen2.qr": "등록하고",
-  "screen2.getYour": "영상 굿즈",
-  "screen2.digitalGoods": "챙기자!",
+  "screen2.scanYour": "Scan your",
+  "screen2.qr": "QR",
+  "screen2.getYour": "Get your",
+  "screen2.digitalGoods": "Digital goods",
 
-  "screen3.checkout": "查看您的数字商品",
-  "screen3.digitalgoods": "数字商品",
-  "screen3.on": "播放 ",
+  "screen3.checkout": "Check out Your",
+  "screen3.digitalgoods": "Digital goods",
+  "screen3.on": "On ",
 
-  "screen4.is_there_anything_else": "还需要其他什么吗？",
-  "screen4.yes": "是",
+  "screen4.is_there_anything_else": "Is there anything else?",
+  "screen4.yes": "YES",
 
   "screen5.mission":"Mission",
   "screen5.earn":"Earn",
@@ -22,5 +22,21 @@
   "screen5.byCompleting":"by completing",
   "screen5.missions":"Missions!",
   "screen5.plus":"Plus",
-  "screen5.coolEvents":"cool events"
+  "screen5.coolEvents":"cool events",
+
+  "screen6.ticketText":"Ticket turned into",
+  "screen6.awesomeText":"awesome",
+  "screen6.digitalContentsText":"Digital contents!",
+  "screen6.tradeText":"Trade your CLIP",
+  "screen6.withText":"with others",
+
+  "screen7.buyBadge": "Buy",
+  "screen7.collectText": "Collect",
+  "screen7.newClipsText": "new CLIPS",
+  "screen7.onMarketText": "on the market!",
+
+  "screen8.howAbout": "How about this ",
+  "screen8.giftIdea": "Gift",
+  "screen8.idea": " idea?"
 }
+
