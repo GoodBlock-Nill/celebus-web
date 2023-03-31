@@ -51,6 +51,7 @@
   height: 32px;
   border-radius: 22px; /* Make the select box round */
   overflow: hidden; /* Hide the content outside the border-radius */
+  text-align: center;
 }
 
 .language-select .MuiInputBase-root {
@@ -59,4 +60,5 @@
   display: flex; /* Add display flex to align items vertically center */
   align-items: center; /* Vertically align the selected value */
   border-radius: 22px; /* Optional: add a border-radius for a smoother appearance */
+  text-align: center;
 }

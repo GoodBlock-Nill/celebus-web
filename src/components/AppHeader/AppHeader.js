@@ -16,6 +16,7 @@ import {
 } from '@mui/material';
 import { useTheme } from '@mui/system';
 import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
 import logo from '../../assets/logo.png';
 import apple from '../../assets/image/AppStore.png';
 import google from '../../assets/image/GooglePlay.png';
@@ -118,44 +119,70 @@ const AppHeader = ({ locale, setLocale }) => {
               <IconButton edge="end" color="black" aria-label="menu" onClick={toggleDrawer(true)}>
                 <MenuIcon />
               </IconButton>
-              <Drawer anchor="right" open={drawerOpen} onClose={toggleDrawer(false)}>
-                <List>
-                  <ListItem>
-                    <Link href="https://apps.apple.com/app/idYOUR_APP_ID" target="_blank" rel="noopener noreferrer">
-                      <Button color="inherit" className={styles.appdownloadBtn}>
-                        <img src={apple} alt="AppStore" />
-                      </Button>
-                    </Link>
-                  </ListItem>
-                  <ListItem>
-                    <Link href="https://play.google.com/store/apps/details?id=YOUR_PACKAGE_NAME" target="_blank" rel="noopener noreferrer">
-                      <Button color="inherit" className={styles.appdownloadBtn}>
-                        <img src={google} alt="GooglePlay" />
-                      </Button>
-                    </Link>
-                  </ListItem>
-                  <ListItem>
-                    <Box className={styles.languageSelect}>
-                      <Select
-                        value={locale}
-                        onChange={handleLanguageChange}
-                        displayEmpty
-                        inputProps={{ 'aria-label': 'Language selection' }}
-                        sx={{
-                          borderRadius: '22px',
-                          height: '100%',
-                          display: 'flex',
-                          alignItems: 'center',
-                        }}
-                      >
-                        <MenuItem value="en">{intl.formatMessage({ id: 'header.english' })}</MenuItem>
-                        <MenuItem value="ko">{intl.formatMessage({ id: 'header.korean' })}</MenuItem>
-                        <MenuItem value="ja">{intl.formatMessage({ id: 'header.japanese' })}</MenuItem>
-                        <MenuItem value="zh">{intl.formatMessage({ id: 'header.chinese' })}</MenuItem>
-                      </Select>
-                    </Box>
-                  </ListItem>
-                </List>
+              <Drawer
+                anchor="right"
+                open={drawerOpen}
+                onClose={toggleDrawer(false)}
+                PaperProps={{ 
+                  style: { 
+                    width: '100%', 
+                    height: '100%', 
+                    paddingRight: '1rem',
+                    paddingLeft: '1rem'
+                   } }} // Update the Drawer style
+              >
+                <Box display="flex" justifyContent="flex-end">
+                  <IconButton edge="end" color="black" aria-label="close" onClick={toggleDrawer(false)}>
+                    <CloseIcon />
+                  </IconButton>
+                </Box>
+                <Box
+                  display="flex"
+                  flexDirection="column"
+                  alignItems="center"
+                  justifyContent="flex-start"
+                  height="100%"
+                  width="100%"
+                >
+                  <List>
+                    <ListItem sx={{ width:'100vw', marginTop: '1rem', justifyContent: 'center' }}>
+                      <Link href="https://apps.apple.com/app/idYOUR_APP_ID" target="_blank" rel="noopener noreferrer">
+                        <Button color="inherit" className={styles.appdownloadBtn}>
+                          <img src={apple} alt="AppStore" />
+                        </Button>
+                      </Link>
+                    </ListItem>
+                    <ListItem sx={{ width:'100vw', marginTop: '1rem', justifyContent: 'center' }}>
+                      <Link href="https://play.google.com/store/apps/details?id=YOUR_PACKAGE_NAME" target="_blank" rel="noopener noreferrer">
+                        <Button color="inherit" className={styles.appdownloadBtn}>
+                          <img src={google} alt="GooglePlay" />
+                        </Button>
+                      </Link>
+                    </ListItem>
+                    <ListItem sx={{ width:'100vw', marginTop: '1rem' }}>
+                      <Box className={styles.languageSelect} width="100%">
+                        <Select
+                          value={locale}
+                          onChange={handleLanguageChange}
+                          displayEmpty
+                          inputProps={{ 'aria-label': 'Language selection' }}
+                          sx={{
+                            borderRadius: '22px',
+                            height: '100%',
+                            display: 'flex',
+                            alignItems: 'center',
+                            textAlign: 'center'
+                          }}
+                        >
+                          <MenuItem value="en">{intl.formatMessage({ id: 'header.english' })}</MenuItem>
+                          <MenuItem value="ko">{intl.formatMessage({ id: 'header.korean' })}</MenuItem>
+                          <MenuItem value="ja">{intl.formatMessage({ id: 'header.japanese' })}</MenuItem>
+                          <MenuItem value="zh">{intl.formatMessage({ id: 'header.chinese' })}</MenuItem>
+                        </Select>
+                      </Box>
+                    </ListItem>
+                  </List>
+                </Box>
               </Drawer>
             </>
           ) : (
