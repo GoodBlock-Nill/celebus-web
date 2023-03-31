@@ -1,3 +1,6 @@
+/* Screen9.module.css */
+
+/* Main container for Screen9 component */
 .screen9Container {
   background-color: #14054E;
   padding: 2rem 0;
@@ -9,6 +12,7 @@
   overflow: auto;
 }
 
+/* Left group styles */
 .leftGroup {
   display: flex;
   flex-direction: column;
@@ -22,6 +26,7 @@
   margin-top: 1rem;
 }
 
+/* Right group styles */
 .rightGroup {
   display: flex;
   justify-content: center;
@@ -35,4 +40,34 @@
 }
 .s9logo {
   position: absolute;
+}
+
+/* Floating animation for the logo */
+.imageFloating {
+  animation: floating 2s infinite ease-in-out;
+}
+
+@keyframes floating {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 1022px) {
+  .screen9Container {
+    padding: 1.25rem 0;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .rightGroup,
+  .leftGroup {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }
