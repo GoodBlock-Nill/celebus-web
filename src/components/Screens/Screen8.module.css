@@ -94,6 +94,9 @@
     align-items: center;
     text-align: center;
   }
+  .giftBadge {
+    margin-bottom: 2rem;
+  }
   .rightGroup {
     padding-bottom: 2rem;
   }

@@ -90,7 +90,6 @@
   .text1,
   .text2 {
     font-size: 2rem !important;
-    margin-bottom: 0;
-    line-height: 10px;
+    line-height: 0 !important;
   }
 }

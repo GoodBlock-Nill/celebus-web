@@ -48,6 +48,7 @@ const Screen1 = () => {
         autoPlay
         muted
         loop
+        playsInline
         onLoadedMetadata={(event) => {
           event.target.style.opacity = 1;
         }}

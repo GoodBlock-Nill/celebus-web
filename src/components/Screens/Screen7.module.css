@@ -83,6 +83,9 @@
     align-items: center;
     text-align: center;
   }
+  .collectBadge {
+    margin-bottom: 2rem;
+  }
   .rightGroup {
     padding-bottom: 2rem;
   }
