@@ -92,8 +92,9 @@ function App() {
             onClick={() => sliderRef.current && sliderRef.current.slickPrev()}
           />
           <PaginationButton
-            direction="next"
-            onClick={() => sliderRef.current && sliderRef.current.slickNext()}
+            totalSlides={5}
+            activeSlide={slideIndex}
+            onClick={(index) => sliderRef.current && sliderRef.current.slickGoTo(index)}
           />
         </div>
       </ThemeProvider>

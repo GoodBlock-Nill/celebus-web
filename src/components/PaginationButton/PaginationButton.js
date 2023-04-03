@@ -1,19 +1,22 @@
-// components/PaginationButton/PaginationButton.js
+// components/PaginationDots/PaginationDots.js
 
 import React from 'react';
 import styles from './PaginationButton.module.css';
 
-const PaginationButton = ({ direction, onClick }) => {
+const PaginationDots = ({ totalSlides, activeSlide, onClick }) => {
   return (
-    <button
-      className={`${styles.paginationButton} ${
-        direction === 'prev' ? styles.prev : styles.next
-      }`}
-      onClick={onClick}
-    >
-      {direction === 'prev' ? '<' : '>'}
-    </button>
+    <div className={styles.paginationDots}>
+      {Array.from({ length: totalSlides }).map((_, index) => (
+        <button
+          key={index}
+          className={`${styles.dot} ${
+            index === activeSlide ? styles.active : ''
+          }`}
+          onClick={() => onClick(index)}
+        ></button>
+      ))}
+    </div>
   );
 };
 
-export default PaginationButton;
+export default PaginationDots;
