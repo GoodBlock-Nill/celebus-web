@@ -13,10 +13,12 @@ const Screen3 = () => {
       <Container maxWidth="lg">
         <Grid container alignItems="center" justifyContent="space-between" className={styles.screen3Content}>
           <Grid item xs={12} md={6} lg={6}>
-            <Box className={styles.screen3Image}>
-              <Fade direction="left">
-                <img src={iPhoneImage2Alt} alt="iPhone Alt" />
-              </Fade>
+            <Box className={styles.imageGroup} >
+              <Box className={styles.screen3Image}>
+                <Fade direction="down">
+                  <img src={iPhoneImage2Alt} alt="iPhone Alt" />
+                </Fade>
+              </Box>
             </Box>
           </Grid>
           <Grid item xs={12} md={6} lg={6}>

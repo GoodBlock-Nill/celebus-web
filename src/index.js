@@ -6,6 +6,8 @@ import theme from './theme';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import messages_en from './locales/en.json'; // import messages for English
 import messages_ko from './locales/ko.json'; // import messages for Korean
 import messages_ja from './locales/ja.json'; // import messages for Japanese

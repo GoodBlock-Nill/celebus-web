@@ -1,0 +1,22 @@
+/* components/PaginationButton/PaginationButton.module.css */
+
+.paginationButton {
+  position: fixed;
+  top: 50%;
+  font-size: 2rem;
+  background:rgba(255, 255, 255, 0.28);
+  color: #B7E703;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  z-index: 1000;
+  border-radius: 50%;
+}
+
+.prev {
+  left: 1rem;
+}
+
+.next {
+  right: 1rem;
+}

@@ -40,7 +40,7 @@ const AppHeader = ({ locale, setLocale }) => {
     setLocale(lang);
   };
 
-  const [scrolled, setScrolled] = useState(false);
+  const [scrolled, setScrolled] = useState(true);
   const handleScroll = () => {
     const offset = window.scrollY;
     if (offset > 1) {
@@ -102,7 +102,7 @@ const AppHeader = ({ locale, setLocale }) => {
 
   return (
     <AppBar
-    position="fixed"
+    // position="fixed"
     className={`${styles.appHeader}`}
     sx={{
       backgroundColor: scrolled ? 'white' : 'transparent',

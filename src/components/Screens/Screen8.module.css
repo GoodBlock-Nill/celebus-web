@@ -1,6 +1,6 @@
 .screen8Container {
   background-color: #fff;
-  padding: 2rem 0;
+  padding: 5rem 0;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -14,6 +14,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  padding-top: 3rem;
 }
 
 .giftBadge {
@@ -64,7 +65,7 @@
   justify-content: center;
   align-items: flex-end;
   width: 100%;
-  padding-bottom: 13rem;
+  padding-bottom: 1rem;
 }
 
 .iphoneImage2 {
@@ -83,8 +84,8 @@
 
 @media (max-width: 1022px) {
   .screen8Container {
-    padding: 3.5rem 0;
-    height: auto;
+    padding-top: 5rem;
+    min-height: 100vh;
     justify-content: center;
     align-items: center;
   }
@@ -97,16 +98,26 @@
   .giftBadge {
     margin-bottom: 2rem;
   }
+
   .rightGroup {
+    display: none;
     padding-bottom: 2rem;
   }
   .text,
   .text span {
     font-size: 2rem !important;
   }
-  .iphoneImage2 {
-    max-width: 80%;
-    margin-top: 2rem;
-    height: auto;
+  .imageGroup {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .iphoneImage,
+  .messageCard {
+    max-width: 60%;
+  }
+  .messageCard {
+    left: 10%;
   }
 }

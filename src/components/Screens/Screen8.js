@@ -24,7 +24,7 @@ const Screen8 = () => {
                 </span>
                 <FormattedMessage id="screen8.idea" defaultMessage="idea?" />
               </Typography>
-              <Fade direction="right">
+              <Fade direction="up">
                 <Box className={styles.imageGroup}>
                   <img src={iPhoneImage} alt="iPhone" className={styles.iphoneImage} />
                   <img src={MessageCard} alt="Message Card" className={`${styles.messageCard} ${styles.imageFloating}`}/>

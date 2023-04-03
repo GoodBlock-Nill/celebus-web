@@ -1,5 +1,5 @@
 .screen3Container {
-  padding: 2rem 0;
+  padding: 3rem 0;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -48,7 +48,7 @@
 }
 
 .playBtn {
-  width: 208px;
+  max-width: 208px;
   vertical-align: middle;
 }
 
@@ -68,6 +68,9 @@
 } */
 
 @media (max-width: 1022px) {
+  .screen3Container {
+    padding-top: 5rem;
+  }
   .screen3Content {
     justify-content: center;
     align-items: center;
@@ -75,10 +78,14 @@
     flex-direction: column-reverse;
 
   }
-  .screen3Image {
+  .imageGroup {
+    display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
+  }
+  .screen3Image {
+    max-width: 50%;
   }
   .screen3Text {
     text-align: center;
@@ -87,6 +94,6 @@
   .s3Text1,
   .s3Text2,
   .s3Text3 {
-    font-size: 2.5rem !important;
+    font-size: 2rem !important;
   }
 }

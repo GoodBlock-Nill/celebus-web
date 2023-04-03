@@ -41,10 +41,11 @@
     text-align: center;
   }
   .screen2Image {
-    text-align: center;
+    display: flex;
   }
   .screen2Image img {
     max-width: 80%;
+    padding-left: 5.5rem;
   }
   .text1,
   .text2 {

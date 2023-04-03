@@ -61,8 +61,8 @@
 /* Responsive styles for smaller screens */
 @media (max-width: 1022px) {
   .screen9Container {
-    padding: 4rem 0;
-    height: auto;
+    padding-top: 4rem;
+    min-height: 100vh;
     justify-content: center;
     align-items: center;
   }
@@ -78,5 +78,9 @@
   .downloadButtons {
     margin-top: 2rem;
     flex-direction: column;
+  }
+  .iphoneImage,
+  .s9logo {
+    max-width: 40%;
   }
 }

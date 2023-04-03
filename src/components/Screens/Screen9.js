@@ -35,7 +35,7 @@ const Screen9 = () => {
           </Grid>
           {/* Right group: iPhone image with rotating logo */}
           <Grid item xs={12} md={4}>
-           <Fade direction="right">
+           <Fade direction="down">
             <Box className={styles.rightGroup}>
               <img src={iphoneImage} alt="iPhone" className={styles.iphoneImage} />
               <img src={s9Logo} alt="Logo" className={`${styles.s9logo} ${styles.imageFloating}`} />

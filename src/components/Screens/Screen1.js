@@ -56,9 +56,9 @@ const Screen1 = () => {
         <source src={videoSrc} type="video/mp4" />
         <p>Your browser does not support the video tag.</p>
       </video>
-      <Box>
+      {/* <Box>
         <img src={scrollImg} alt="scroll" className={`${styles.scrollImg} ${styles.imageFloating}`} />
-      </Box>
+      </Box> */}
       <IconButton
         className={`${styles.volumeButton} ${
           isButtonPressed ? styles.pressed : ''

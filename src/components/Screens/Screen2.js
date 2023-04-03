@@ -28,7 +28,7 @@ const Screen2 = () => {
           </Grid>
           <Grid item xs={12} md={6}>
             <Box className={styles.screen2Image}>
-              <Fade direction="right">
+              <Fade direction="up">
                 <img src={iPhoneImage} alt="iPhone" />
               </Fade>
             </Box>
