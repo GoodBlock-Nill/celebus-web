@@ -33,13 +33,13 @@ const Screen7 = () => {
               <Box className={styles.collectBadge}>
                 Collect
               </Box>
-              <Typography variant="h2" fontWeight={700} className={styles.collectText}>
+              <Typography variant="h2" fontWeight={700} lineHeight="65px" className={styles.collectText}>
                 <FormattedMessage id="screen7.collectText" defaultMessage="Collect" />
               </Typography>
-              <Typography variant="h2" fontWeight={700} className={styles.newClipsText}>
+              <Typography variant="h2" fontWeight={700} lineHeight="65px" className={styles.newClipsText}>
                 <FormattedMessage id="screen7.newClipsText" defaultMessage="new CLIPS" />
               </Typography>
-              <Typography variant="h2" fontWeight={700} className={styles.onMarketText}>
+              <Typography variant="h2" fontWeight={700} lineHeight="65px" className={styles.onMarketText}>
                 <FormattedMessage id="screen7.onMarketText" defaultMessage="on the market!" />
               </Typography>
             </Box>

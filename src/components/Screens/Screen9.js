@@ -1,6 +1,6 @@
 // Screen9.js
 import React from 'react';
-import { Container, Grid, Box, Typography, IconButton, Link } from '@mui/material';
+import { Container, Grid, Box, Typography, Link } from '@mui/material';
 import styles from './Screen9.module.css';
 import { Fade } from 'react-awesome-reveal';
 import iphoneImage from '../../assets/image/screen9.png';
@@ -23,16 +23,12 @@ const Screen9 = () => {
               </Typography>
               <Box className={styles.downloadButtons}>
                 {/* App Store download button */}
-                <Link href="https://apps.apple.com/app/idYOUR_APP_ID" target="_blank" rel="noopener noreferrer">
-                  <IconButton>
-                    <img src={appleStore} alt="AppStore" />
-                  </IconButton>
+                <Link className={styles.btnLink} href="https://apps.apple.com/app/idYOUR_APP_ID" target="_blank" rel="noopener noreferrer">
+                  <img src={appleStore} alt="AppStore" />    
                 </Link>
                 {/* Google Play download button */}
-                <Link href="https://play.google.com/store/apps/details?id=YOUR_PACKAGE_NAME" target="_blank" rel="noopener noreferrer">
-                  <IconButton>
-                    <img src={googleStore} alt="GooglePlay" />
-                  </IconButton>
+                <Link className={styles.btnLink} href="https://play.google.com/store/apps/details?id=YOUR_PACKAGE_NAME" target="_blank" rel="noopener noreferrer">
+                  <img src={googleStore} alt="GooglePlay" />
                 </Link>
               </Box>
             </Box>

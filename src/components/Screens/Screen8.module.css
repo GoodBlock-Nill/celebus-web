@@ -24,14 +24,12 @@
   height: 40px;
   background-color: #B7E703;
   border-radius: 50px;
-  margin-bottom: 40px;
   font-weight: 700;
   font-size: 24px;
   color: #fff;
 }
 
 .text {
-  margin-bottom: 1rem;
   color: rgba(0, 0, 0, 0.48);
   white-space: pre-wrap;
 }
@@ -66,6 +64,7 @@
   justify-content: center;
   align-items: flex-end;
   width: 100%;
+  padding-bottom: 13rem;
 }
 
 .iphoneImage2 {
@@ -84,7 +83,7 @@
 
 @media (max-width: 1022px) {
   .screen8Container {
-    padding: 1.25rem 0;
+    padding: 3.5rem 0;
     height: auto;
     justify-content: center;
     align-items: center;
@@ -95,9 +94,12 @@
     align-items: center;
     text-align: center;
   }
+  .rightGroup {
+    padding-bottom: 2rem;
+  }
   .text,
   .text span {
-    font-size: 2.5rem !important;
+    font-size: 2rem !important;
   }
   .iphoneImage2 {
     max-width: 80%;

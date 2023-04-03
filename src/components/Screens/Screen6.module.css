@@ -22,6 +22,7 @@
   font-size: 2.6rem;
   font-weight: 700;
   flex-direction: column;
+  padding-bottom: 4rem;
 }
 
 .marketBadge {
@@ -32,7 +33,6 @@
   height: 40px;
   background-color: #B7E703;
   border-radius: 50px;
-  margin-bottom: 40px;
   font-weight: 700;
   font-size: 24px;
   color: #fff;
@@ -41,10 +41,12 @@
 .text1 {
   margin-bottom: 10px;
   color: rgba(0, 0, 0, 0.48);
+  line-height: 65px;
 }
 .text2 {
   margin-bottom: 10px;
   color: rgba(0, 0, 0, 1);
+  line-height: 65px;
 }
 
 .iphoneImage {
@@ -66,13 +68,13 @@
 
 .clipImage {
   margin-top: 10%;
-  max-width: 85%;
+  max-width: 90%;
   height: auto;
 }
 
 @media (max-width: 1022px) {
   .screen6Container {
-    padding: 1.25rem 0;
+    padding: 2.5rem 0;
     height: auto;
   }
   .leftGroup,
@@ -83,9 +85,12 @@
   }
   .rightGroup {
     flex-direction: column-reverse;
+    padding-bottom: 0;
   }
   .text1,
   .text2 {
-    font-size: 2.5rem !important;
+    font-size: 2rem !important;
+    margin-bottom: 0;
+    line-height: 10px;
   }
 }

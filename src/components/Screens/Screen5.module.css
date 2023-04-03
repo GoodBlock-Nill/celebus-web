@@ -14,6 +14,7 @@
   width: 100%;
   flex-direction: column;
   align-items: left;
+  padding-bottom: 10rem;
 }
 
 .missionBadge {
@@ -24,7 +25,6 @@
   height: 43px;
   background-color: #B7E703;
   border-radius: 95px;
-  margin-bottom: 40px;
   font-weight: 700;
   font-size: 24px;
   color: #fff;
@@ -49,12 +49,15 @@
   font-size: 3.25rem !important;
   font-weight: bold;
   margin-right: 10px !important;
+  line-height: 65px;
 }
 
 .text2 {
   color: #000;
   font-size: 3.25rem !important;
   font-weight: bold;
+  line-height: 65px;
+
 }
 
 .eventsImage {
@@ -68,10 +71,14 @@
   justify-content: right;
 }
 .rightBadge {
+}
+
+.pulseRightBadge {
   animation: pulse 1s infinite;
 }
+
 .rotateRightBadge {
-  animation: rotate 2s forwards;
+  animation: rotate 3s infinite;
 }
 
 .imageContainer {
@@ -128,17 +135,23 @@
     align-items: center;
     text-align: center;
   }
+  .leftGroup {
+    padding-bottom: 0;
+  }
   .eventsImage {
+    width: 32px;
     height: auto;
   }
   .text1,
   .text2 {
-    font-size: 2.5rem !important;
+    font-size: 2rem !important;
+    line-height: 46px !important;
   }
 }
 
 @media (max-width: 600px) {
   .missionBadge {
+    margin-top: 20px;
     margin-bottom: 20px;
   }
   .textGroup {

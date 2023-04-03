@@ -1,4 +1,5 @@
 .screen3Container {
+  padding: 2rem 0;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -51,8 +52,12 @@
   vertical-align: middle;
 }
 
+.playBtnWrapper {
+  display: inline-flex;
+  /* animation: flutter 2.5s linear infinite; */
+}
 
-@keyframes flutter {
+/* @keyframes flutter {
   0%,
   100% {
     transform: translateY(0);
@@ -60,13 +65,7 @@
   50% {
     transform: translateY(-10px);
   }
-}
-
-.playBtnWrapper {
-  display: inline-flex;
-  animation: flutter 2.5s linear infinite;
-}
-
+} */
 
 @media (max-width: 1022px) {
   .screen3Content {

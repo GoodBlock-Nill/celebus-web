@@ -42,6 +42,7 @@
   flex-direction: column;
   align-items: flex-end;
   gap: 1rem;
+  padding-bottom: 18rem;
 }
 
 .collectBadge {
@@ -52,7 +53,6 @@
   height: 40px;
   background-color: #B7E703;
   border-radius: 50px;
-  margin-bottom: 40px;
   font-weight: 700;
   font-size: 24px;
   color: #fff;
@@ -72,7 +72,7 @@
 
 @media (max-width: 1022px) {
   .screen7Container {
-    padding: 1.25rem 0;
+    padding: 2.5rem 0;
     height: auto;
     justify-content: center;
     align-items: center;
@@ -83,12 +83,16 @@
     align-items: center;
     text-align: center;
   }
+  .rightGroup {
+    padding-bottom: 2rem;
+  }
   .screen7Contents {
     flex-direction: column-reverse !important;
   }
   .collectText,
   .newClipsText,
   .onMarketText {
-    font-size: 2.5rem !important;
+    font-size: 2rem !important;
+    line-height: 32px !important;
   }
 }

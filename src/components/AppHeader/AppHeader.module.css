@@ -62,3 +62,9 @@
   border-radius: 22px; /* Optional: add a border-radius for a smoother appearance */
   text-align: center;
 }
+
+@media (max-width: 1022px) {
+  .appTitle{
+    max-width: 50%;
+  }
+}

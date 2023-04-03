@@ -17,7 +17,7 @@ const Screen8 = () => {
               <Box className={styles.giftBadge}>
                 Gift
               </Box>
-              <Typography variant="h2" fontWeight="700" className={styles.text}>
+              <Typography variant="h2" fontWeight="700" className={styles.text} lineHeight="1.4">
                 <FormattedMessage id="screen8.howAbout" defaultMessage="How about this" />
                 <span>
                   <FormattedMessage id="screen8.giftIdea" defaultMessage="Gift" />

@@ -11,10 +11,6 @@
   opacity: 0.48;
 }
 
-.footerLeft,
-.footerCenter {
-  margin-bottom: 2.5rem;
-}
 .footerRight {
   display: flex;
   flex-direction: column;
@@ -43,6 +39,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-bottom: 1rem;
   }
   .terms {
     display: flex;
