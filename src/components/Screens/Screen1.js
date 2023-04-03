@@ -3,8 +3,6 @@ import videoSrc from '../../assets/videos/screen1.mp4';
 import styles from './Screen1.module.css';
 import { IconButton } from '@mui/material';
 import { VolumeOff, VolumeUp } from '@mui/icons-material';
-import scrollImg from'../../assets/image/scroll.png';
-import { Box } from '@mui/system';
 
 const Screen1 = () => {
   const videoRef = useRef(null);
@@ -56,9 +54,6 @@ const Screen1 = () => {
         <source src={videoSrc} type="video/mp4" />
         <p>Your browser does not support the video tag.</p>
       </video>
-      {/* <Box>
-        <img src={scrollImg} alt="scroll" className={`${styles.scrollImg} ${styles.imageFloating}`} />
-      </Box> */}
       <IconButton
         className={`${styles.volumeButton} ${
           isButtonPressed ? styles.pressed : ''
